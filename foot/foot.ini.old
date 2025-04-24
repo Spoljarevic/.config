@@ -1,0 +1,29 @@
+font=CaskaydiaMono NFM:size=16
+font-bold=CaskaydiaMono NFM:style=Bold:size=16
+pad=20x20
+
+[colors]
+foreground=1C66B7 # Normal Text - NeofetchData
+background=000005 # Normal Background
+regular0=45475a   # Normal Surface 1
+bright0=585b70    # Bright Surface 2
+regular1=f38ba8   # Normal Red
+bright1=f38ba8    # Bright Red
+regular2=a6e3a1   # Normal Green
+bright2=a6e3a1    # Bright Green
+regular3=f9e2af   # Normal Yellow
+bright3=f9e2af    # Bright Yellow
+regular4=89B4FA   # Normal Blue
+bright4=89B4FA    # Bright Blue
+regular5=f5c2e7   # Normal Pink
+bright5=f5c2e7    # Bright Pink
+regular6=009EE2   # Normal Teal - NeofetchTitle
+bright6=009EE2    # Bright Teal
+regular7=bac2de   # Normal Subtext 1
+bright7=009fe3    # Bright Subtext 0
+
+alpha = 0.40
+
+[scrollback]
+indicator-position=fixed
+indicator-format=percentage
