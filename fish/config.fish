@@ -1,9 +1,12 @@
+set -x XDG_CURRENT_DESKTOP Hyprland
+set -x XDG_SESSION_TYPE wayland
+set -x XDG_SESSION_DESKTOP Hyprland
+
 if status is-interactive
 	# Commands to run in interactive sessions can go here
 end
 
 set -g fish_greeting ""
-set -x XDG_CURRENT_DESKTOP GNOME
 
 eval (keychain --eval --agents ssh ~/.ssh/all-inkl)
 clear
